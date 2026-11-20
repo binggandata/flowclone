@@ -1,0 +1,25 @@
+# Android
+native/.gradle/
+native/build/
+native/app/build/
+native/local.properties
+native/gateway.properties
+native/*.jks
+native/*.apk
+native/*.aab
+native/.kotlin/
+*.iml
+.idea/
+
+# Backend
+backend/flowclone-server/.env
+backend/flowclone-server/*.db
+backend/flowclone-server/*.db-*
+backend/flowclone-server/outputs/
+backend/flowclone-server/__pycache__/
+
+# Evidence / local
+evidence/
+dist/
+*.log
+.DS_Store

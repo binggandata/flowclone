@@ -1,0 +1,4 @@
+# App 默认连接自建 Server（开发时配合 adb reverse tcp:8081 tcp:8081）
+url=http://127.0.0.1:8081
+# 生产环境请由服务端持有网关 Key，App 端保持为空
+key=
